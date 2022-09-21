@@ -1,6 +1,6 @@
 import React from "react";
 
-const Like = () => {
+const Like = ({ post }) => {
   return (
     <div>
       <img src="./icons/clap.png" className="clap" alt="clap" />
